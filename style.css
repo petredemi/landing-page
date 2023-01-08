@@ -1,0 +1,25 @@
+* {
+    border: 1px solid red;
+    margin: 3px;
+}
+.logo, header, .container, .quote, .footer, .sign-up{
+    border: 3px solid black;
+}
+.logo {
+    display: flex;
+    background: rgb(144, 130, 130);
+    flex: 1;
+    color: white;
+    gap: 40px;
+    align-items: center;
+}
+.title {
+    font-size: 24px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: white;
+    flex: 1;
+}
+
