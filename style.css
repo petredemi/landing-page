@@ -1,4 +1,7 @@
 
+* {
+    border: 1px solid red;
+}
 body { 
    
     display: flex;
@@ -22,13 +25,13 @@ body {
     display: flex;
     color: white;
     background: rgb(170, 154, 154);
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     justify-content:flex-start;
 
 }
 .title {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 50px;
@@ -38,7 +41,7 @@ body {
 a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 header{
@@ -47,23 +50,30 @@ header{
     gap: 30px;
     border: 10px;
     margin: 60px;
+    max-height: 200px;
+}
+.content {
+    max-height: 200px;
+
 }
 h1 {
     font-size: 38px;
-    font-family:'Franklin Gothic Medium';
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
-
+    margin: 5px;
 
 }
-header p{
+.content p {
     font-size: 18px;
+    margin: 5px;
 }
 button {
     background: #3882f6;
     border-radius: 3px;
     height: 30px;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
+    margin: 5px;
 }
 
 .container h2 {
@@ -82,20 +92,22 @@ button {
 .description{
     display: flex;
     justify-content: center;
+    align-items: top;
     gap: 10px;
-
+   
     
 }
 
 .items img {
     border-radius: 8px;
     border: 2px solid blueviolet;
+    width: 150px;
 }
 .info {
-    max-width:110px;
-    height: 150px;
+    max-width:150px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+    min-width: 150px;
   
 }
 .quote {
@@ -104,17 +116,12 @@ button {
     flex-direction: column;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 20px;
     
 }
 .text, .autor {
-  /* display: block;
-   padding-left: 30px;
-   margin-left: 50px;
-   margin-right: 100px;
-   margin-bottom: 10px;
-   */
    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 16px;
+   font-size: 15px;
    text-align: start;
    font-style: italic;
 
@@ -149,12 +156,12 @@ button {
    
 }
 .sign-left p {
-    font-size: 10px;
+    font-size: 16px;
     margin-top: 2px;
 
     
 }
-h4 {
+h3 {
     margin-bottom: 2px;
     margin-top: 2px;
 }
