@@ -1,25 +1,113 @@
 * {
-    border: 1px solid red;
-    margin: 3px;
+    border: 1px solid rgb(227, 23, 23);
 }
-.logo, header, .container, .quote, .footer, .sign-up{
-    border: 3px solid black;
+/*
+body { 
+   
+    display: block;
+}
+*/
+.top {
+    color: white;
+    background: black;
 }
 .logo {
     display: flex;
-    background: rgb(144, 130, 130);
     flex: 1;
     color: white;
     gap: 40px;
     align-items: center;
+
 }
 .title {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 50px;
+    width: 400px;
 }
 a {
     text-decoration: none;
     color: white;
     flex: 1;
+    font-size: 12px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 10px;
+    margin: 60px;
+}
+button {
+    background: rgb(9, 143, 226);
+    border-radius: 3px;
+}
+.container {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+.items {
+    text-align: center;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.items img {
+    border-radius: 8px;
+}
+.info {
+    max-width:100px;
+    height: 100px;
+    text-align: center;
+  
+}
+.quote {
+    display: flex;
+    background: grey;
+    padding: 50px;
+    flex-direction: column;
+    
+}
+.text {
+
+   text-align: left;
+   flex:1;
+   padding-left: 50px;
+}
+.autor {
+  
+   text-align: end;
+   flex: 1;
+}
+.sign-up {
+    background: rgb(51, 147, 211);
+    color: white;
+    margin: 40px;
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+}
+.sign-left {
+    display: block;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
 }
 
