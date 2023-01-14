@@ -1,12 +1,23 @@
 * {
     border: 1px solid rgb(227, 23, 23);
 }
-/*
+
 body { 
    
-    display: block;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    
 }
-*/
+.page{
+    display: flex;
+    flex-direction: column;
+    background: rgb(206, 255, 206);
+    min-width: 50px;
+    max-width: 80%;    
+}
+
 .top {
     color: white;
     background: black;
@@ -17,18 +28,21 @@ body {
     color: white;
     gap: 40px;
     align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
 
 }
 .title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 800;
     margin-left: 50px;
-    width: 400px;
+    width: 500px;
+    color: #F9faf8;
 }
 a {
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 18px;
 
 }
 header{
@@ -38,20 +52,29 @@ header{
     border: 10px;
     margin: 60px;
 }
+h1 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+
+}
+header p{
+    font-size: 18px;
+}
 button {
-    background: rgb(9, 143, 226);
+    background: #3882f6;
     border-radius: 3px;
     height: 30px;
     color: white;
     font-size: 12px;
 }
-.container {
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
-h2 {
+
+.container h2 {
     text-align: center;
     padding: 30px;
+    font-size: 34px;
+    color: bold #1f2937
 }
 .items {
     text-align: center;
@@ -68,16 +91,17 @@ h2 {
     border-radius: 8px;
 }
 .info {
-    max-width:100px;
-    height: 100px;
+    max-width:110px;
+    height: 150px;
     text-align: center;
   
 }
 .quote {
     display: flex;
-    background: grey;
-    padding: 50px;
+    background: #e5e7eb;
     flex-direction: column;
+    padding: 40px;
+    font-size: 18px;
 
 }
 .text {
@@ -86,6 +110,8 @@ h2 {
    margin-left: 100px;
    margin-right: 100px;
    margin-bottom: 10px;
+   font-size: 16px;
+
 }
 .autor {
    text-align: end;
@@ -94,6 +120,7 @@ h2 {
    margin-right: 100px;
    margin-top: 10px;
 }
+  
 .sign-up {
     background: rgb(51, 147, 211);
     color: white;
