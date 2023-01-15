@@ -1,9 +1,9 @@
 
 body { 
-    display: flex;
+    margin-right: auto;
+    margin-left: auto;
     background: white;
-    align-items: center;
-    justify-content: center;
+    max-width: 90%;
    
 }
 .page{
@@ -12,7 +12,6 @@ body {
     background: rgb(206, 255, 206);
     resize: both;
     overflow: auto;
-   
 }
 
 .header {
@@ -61,7 +60,7 @@ a {
 }
 .content {
     height: 300px;
-    max-width: 650px;
+    max-width: 550px;
 
 }
 .introduction img {
