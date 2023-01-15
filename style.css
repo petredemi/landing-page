@@ -1,21 +1,21 @@
 
-
 body { 
-   
     display: flex;
     background: white;
     align-items: center;
     justify-content: center;
-    
+   
 }
 .page{
     display: flex;
     flex-direction: column;
     background: rgb(206, 255, 206);
-    max-width: 80%;    
+    resize: both;
+    overflow: auto;
+   
 }
 
-.top {
+.header {
     color: white;
     background: black;
 }
@@ -23,48 +23,67 @@ body {
     display: flex;
     color: white;
     background: rgb(170, 154, 154);
-    gap: 20px;
+    gap: 15px;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: space-between;
 
 }
 .title {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 50px;
-    width: 300px;
-    color: #F9faf8;
+    margin-left: 100px;
+    color: #e71566;
+}
+.links {
+    display: flex;
+    padding: 2px;
+    margin-right: 80px;
+}
+.links a{
+    margin: 15px;
 }
 a {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
+    color: rgb(44, 253, 93);
+    font-size: 18px;
+    margin: 5px;
 
 }
-header{
+.introduction {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 30px;
     border: 10px;
-    margin: 60px;
-    max-height: 200px;
+    margin: 30px;
+    max-height: 700px;
 }
 .content {
-    max-height: 200px;
+    height: 300px;
+    max-width: 650px;
+
+}
+.introduction img {
+    border: 2px solid rgb(171, 56, 171);
+    border-radius: 8px;
+    width: 531px;
+    height: 300px;
 
 }
 h1 {
-    font-size: 38px;
+    font-size: 50px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin: 5px;
+    color: aqua;
 
 }
 .content p {
     font-size: 18px;
     margin: 5px;
 }
+
 button {
     background: #3882f6;
     border-radius: 3px;
@@ -77,10 +96,10 @@ button {
 .container h2 {
     text-align: center;
     padding: 30px;
-    font-size: 34px;
-    color: bold #1f2937
+    font-size: 42px;
+    color: #f10d0d
 }
-.items {
+.items{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -92,7 +111,6 @@ button {
     justify-content: center;
     align-items: top;
     gap: 10px;
-   
     
 }
 
@@ -100,9 +118,10 @@ button {
     border-radius: 8px;
     border: 2px solid blueviolet;
     width: 150px;
+    height: 120px;
 }
 .info {
-    max-width:150px;
+    max-width: 150px;
     text-align: center;
     font-size: 14px;
     min-width: 150px;
@@ -130,7 +149,6 @@ button {
    padding-right: 60px;
    
 }
-  
 .sign-up {
     background: rgb(51, 147, 211);
     color: white;
