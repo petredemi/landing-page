@@ -2,7 +2,6 @@
 body { 
     margin-right: auto;
     margin-left: auto;
-    background: white;
     max-width: 90%;
 
 }
@@ -18,12 +17,11 @@ body {
 
 .header {
     color: white;
-    background: black;
+    background-image: url("./pictures/florina.jpg");
 }
 .logo {
     display: flex;
     color: white;
-    background: rgb(170, 154, 154);
     gap: 15px;
     align-items: center;
     justify-content: space-between;
@@ -83,12 +81,13 @@ h1 {
     font-weight: bolder;
     margin: 5px;
     color: rgb(253, 232, 93);
-    text-shadow: 1px -1px  black, 0 0 25px white, 0 0 5px white;
+    text-shadow: 1px -1px  black, 0 0 25px pink, 0 0 5px red;
 
 }
 .content p {
-    font-size: 18px;
+    font-size: 20px;
     margin: 5px;
+    text-shadow: 1px 1px 3px black;
 }
 
 button {
