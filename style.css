@@ -4,12 +4,9 @@ body {
     margin-left: auto;
     background: white;
     max-width: 90%;
-    
-   
+
 }
-* {
-    border: 1px solid red;
-}
+
 .page{
     display: flex;
     flex-direction: column;
@@ -53,6 +50,7 @@ a {
     text-decoration: none;
     color: rgb(44, 253, 93);
     font-size: 22px;
+    font-weight: bold;
     margin: 5px;
     text-shadow: 5px -5px 4px black;
 
@@ -98,7 +96,7 @@ button {
     border-radius: 3px;
     color: white;
     font-size: 18px;
-    margin: 10px;
+    margin: 15px;
     width: 80px;
 }
 
@@ -187,11 +185,14 @@ button {
 }
 .bold-text{
     font-size: 28px;
+    font-weight: bold;
     margin: auto;
     margin-bottom: 5px;
+    text-shadow: 0px 0px 3px black;
+
 }
 .sign-text p{
-    font-size: 20px;
+    font-size: 22px;
     margin: auto;
    
 }
