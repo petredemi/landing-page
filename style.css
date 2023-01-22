@@ -7,6 +7,9 @@ body {
     
    
 }
+* {
+    border: 1px solid red;
+}
 .page{
     display: flex;
     flex-direction: column;
@@ -30,25 +33,26 @@ body {
 
 }
 .title {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 100px;
+    margin-left: 40px;
     color: #e71566;
-    text-shadow: 4px -4px 5px black;
+    text-shadow: 2px 0 0 black, 0 0 35px yellow, 0 0 5px rgb(250, 247, 83);
+    ;
 }
 .links {
     display: flex;
     padding: 2px;
-    margin-right: 80px;
+    margin-right: 30px;
 }
 .links a{
-    margin: 15px;
+    margin: 10px;
 }
 a {
     text-decoration: none;
     color: rgb(44, 253, 93);
-    font-size: 20px;
+    font-size: 22px;
     margin: 5px;
     text-shadow: 5px -5px 4px black;
 
@@ -62,8 +66,8 @@ a {
     margin: 30px;
 }
 .content {
-    max-width: 550px;
-    border: 2px solid white;
+    max-width: 535px;
+    border: 2px solid grey;
     box-shadow: 10px -10px 8px rgb(156, 148, 148);
 
 }
@@ -72,7 +76,7 @@ a {
     border-radius: 8px;
     width: 531px;
     height: 300px;
-    box-shadow: 10px -10px 6px rgb(239, 224, 224);
+    box-shadow: 10px -10px 6px grey;
 
 }
 h1 {
@@ -80,8 +84,8 @@ h1 {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin: 5px;
-    color: aqua;
-    text-shadow: 5px -5px  5px rgb(240, 167, 167);
+    color: rgb(253, 232, 93);
+    text-shadow: 1px -1px  black, 0 0 25px white, 0 0 5px white;
 
 }
 .content p {
@@ -93,7 +97,7 @@ button {
     background: #3882f6;
     border-radius: 3px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
     width: 80px;
 }
@@ -101,9 +105,10 @@ button {
 .container {
     text-align: center;
     padding: 30px;
-    font-size: 52px;
+    font-size: 62px;
+    font-weight: bold;
     color: #f10d0d;
-    text-shadow: 6px -4px 6px rgb(79, 76, 238);
+    text-shadow: -2px 0px 0px black, 0 0 25px blue, 0 0 10px darkblue;
 
 }
 .items{
@@ -128,7 +133,7 @@ button {
     border: 2px solid blueviolet;
     width: 200px;
     height: 160px;
-    box-shadow: 6px -6px rgb(189, 179, 179);
+    box-shadow: 6px -6px 6px rgb(189, 179, 179);
 }
 .info {
     max-width: 150px;
@@ -186,7 +191,7 @@ button {
     margin-bottom: 5px;
 }
 .sign-text p{
-    font-size: 18px;
+    font-size: 20px;
     margin: auto;
    
 }
