@@ -17,8 +17,8 @@ body {
 
 .header {
     color: white;
-    background-image: url("./pictures/pirita.jpg");
-    border-style: outset;
+    background-image: url("./pictures/florina.jpg");
+
 }
 .logo {
     display: flex;
@@ -31,10 +31,10 @@ body {
 .title {
     font-size: 40px;
     font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 40px;
     color: #e71566;
-    text-shadow: 2px 0 0 black, 0 0 35px yellow, 0 0 5px rgb(250, 247, 83);
+    text-shadow: 2px 0 0 black, 0 0 35px rgb(255, 255, 15), 0 0 5px rgb(250, 247, 83);
     ;
 }
 .links {
@@ -65,7 +65,7 @@ a {
 .content {
     max-width: 535px;
     border: 2px solid black;
-    box-shadow: 6px -6px 2px black;
+    box-shadow: 5px -5px 2px black;
     background:rgba(15, 15, 15, 0.5);
     border-radius: 8px;
 
@@ -75,12 +75,12 @@ a {
     border-radius: 8px;
     width: 531px;
     height: 300px;
-    box-shadow: 6px -6px 2px black;
+    box-shadow: 5px -5px 2px black;
 
 }
 h1 {
-    font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 54px;
+    font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
     margin: 5px;
     color: rgb(253, 232, 93);
