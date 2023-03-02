@@ -9,7 +9,7 @@ body {
 .page{
     display: flex;
     flex-direction: column;
-    background: rgb(206, 255, 206);
+    background: rgb(106, 169, 106);
     resize: both;
     overflow: auto;
     box-shadow: 8px 8px 8px 8px rgb(144, 140, 140);
@@ -17,7 +17,7 @@ body {
 
 .header {
     color: white;
-    background-image: url("./pictures/florina.jpg");
+    background-image: url("./pictures/cuart-calcit.jpg");
 
 }
 .logo {
@@ -98,6 +98,7 @@ button {
     border-radius: 3px;
     color: white;
     font-size: 18px;
+    text-shadow: 0px 0px 3px black;
     margin: 15px;
     width: 80px;
 }
@@ -196,11 +197,12 @@ button {
 }
 .sign-text p{
     font-size: 22px;
+    text-shadow: 0px 0px 3px black;
     margin: auto;
    
 }
 .footer {
-   
+    font-size: 22px;
     text-align: center;
     background: rgb(170, 154, 154);;
     color: white;
