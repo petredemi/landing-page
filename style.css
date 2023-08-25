@@ -9,7 +9,7 @@ body {
 .page{
     display: flex;
     flex-direction: column;
-    background: rgb(106, 169, 106);
+    background: rgb(140, 244, 202);
     resize: both;
     overflow: auto;
     box-shadow: 8px 8px 8px 8px rgb(144, 140, 140);
@@ -17,12 +17,15 @@ body {
 
 .header {
     color: white;
-    background-image: url("./pictures/cuart-calcit.jpg");
+   /* background-image: url("./pictures/cuart-calcit.jpg");
+*/
 
+    background: rgb(249, 249, 135);
 }
 .logo {
     display: flex;
     color: white;
+    background: #8bb5f7;
     gap: 15px;
     align-items: center;
     justify-content: space-between;
@@ -34,8 +37,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin-left: 40px;
     color: #e71566;
-    text-shadow: 2px 0 0 black, 0 0 35px rgb(255, 255, 15), 0 0 5px rgb(250, 247, 83);
-    ;
+    text-shadow: 2px 2px 1px black;
 }
 .links {
     display: flex;
@@ -47,11 +49,11 @@ body {
 }
 a {
     text-decoration: none;
-    color: rgb(44, 253, 93);
+    color: rgb(246, 17, 17);
     font-size: 22px;
     font-weight: bold;
     margin: 5px;
-    text-shadow: 5px -5px 4px black;
+    text-shadow: 1px 1px 0px black;
 
 }
 .introduction {
@@ -66,7 +68,7 @@ a {
     max-width: 535px;
     border: 2px solid black;
     box-shadow: 5px -5px 2px black;
-    background:rgba(15, 15, 15, 0.5);
+    background:rgba(102, 249, 134, 0.956);
     border-radius: 8px;
 
 }
@@ -83,7 +85,7 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
     margin: 5px;
-    color: rgb(253, 232, 93);
+    color: rgb(230, 22, 22);
     text-shadow: 0px 0px  3px  black, 0 0 25px rgb(254, 248, 249), 0 0 5px red;
 
 }
@@ -106,9 +108,9 @@ button {
 .container {
     text-align: center;
     padding: 30px;
-    font-size: 62px;
+    font-size: 70px;
     font-weight: bold;
-    color: #f10d0d;
+    color: #f53939;
     text-shadow: -2px 0px 0px black, 0 0 25px blue, 0 0 10px darkblue;
 
 }
@@ -145,13 +147,13 @@ button {
 }
 .quote {
     display: block;
-    background: #e5e7eb;
+    background: white;
     flex-direction: column;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 20px;
-    border-style: double;
-    
+    padding-top: 24px;
+    border: 5px solid red;
+
 }
 .quote {
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -204,8 +206,8 @@ button {
 .footer {
     font-size: 22px;
     text-align: center;
-    background: rgb(170, 154, 154);;
-    color: white;
+    background: rgb(229, 216, 216);;
+    color: rgb(21, 8, 8);
     padding: 20px;
     border-style: outset;
 }
