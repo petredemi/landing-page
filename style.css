@@ -9,7 +9,7 @@ body {
 .page{
     display: flex;
     flex-direction: column;
-    background: rgb(150, 243, 206);
+    background: linear-gradient(to right, rgba(255, 66, 66, 0.669), rgba(255, 255, 0, 0.692), rgba(9, 164, 9, 0.7), rgba(45, 45, 253, 0.655));
     resize: both;
     overflow: auto;
     box-shadow: 8px 8px 8px 8px rgb(144, 140, 140);
@@ -20,12 +20,13 @@ body {
    /* background-image: url("./pictures/cuart-calcit.jpg");
 */
 
-    background: rgb(252, 252, 160);
+    background: linear-gradient(90deg, rgb(175, 176, 176)20%, rgb(251, 248, 248) 100%);
 }
 .logo {
     display: flex;
     color: white;
-    background: #8bb5f7;
+    background: linear-gradient(40deg, rgba(84, 143, 238, 0.63) 40%, 
+    rgba(232, 236, 243, 0.63) 100%) ;
     gap: 15px;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +50,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: rgb(246, 17, 17);
+    color: rgb(28, 111, 5);
     font-size: 22px;
     font-weight: bold;
     margin: 5px;
@@ -68,7 +69,8 @@ a {
     max-width: 535px;
     border: 2px solid black;
     box-shadow: 5px -5px 2px black;
-    background:rgba(119, 247, 147, 0.973);
+    background:linear-gradient( 180deg, rgba(119, 247, 147, 0.773) 30%, 
+    rgba(190, 187, 187, 0.998) 100%);
     border-radius: 8px;
 
 }
